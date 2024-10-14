@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="welcome">
+        <div class="container">
+            <h1>Generate a <span>Random Password</span> </h1>
+            <div class="display">
+                <input type="text" placeholder="password" id="password">
+                <i class="fa-regular fa-copy" onclick="copyPassword()"></i>
+            </div>
+            <button onclick="createPassword()"><i class="fa-solid fa-bolt"></i> Generate Password</button>
+        </div>
+        <img src="img/moon.png" alt="" id="icon" onclick="darkTheme()">
+    </div>
+
+
+    <div class="square">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <div class="circle">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
